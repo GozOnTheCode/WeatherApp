@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <input type="text" class="city">
+    <button onclick="userAction()">Click</button>
+
+    <img alt="">
+    <p class="p-temperature"></p> -->
+
+    <h1 class="title">Application météo <ion-icon name="partly-sunny-outline"></ion-icon></h1>
+
+    <div class="container">
+        <div class="text-container">
+
+            <header>
+                <input type="text" class="city" placeholder="Entrez une ville">
+                <button class="btn" onclick="userAction()"><ion-icon name="search-outline"></ion-icon></button>
+            </header>
+
+
+            <div class="result-container">
+                <img alt="" src="" class="weatherImg">
+                <div class="container-result">
+                    <p class="temperature"></p>
+                    <p class="country"></p>
+                    <p class="namecity"></p>
+                    <p class="humidity"></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
